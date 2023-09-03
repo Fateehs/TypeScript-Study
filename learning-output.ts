@@ -1,4 +1,4 @@
-// Getting Started & Installation
+// Getting Started & Installation 02.09.2023
 // 1-) Node.js kurulumu ve TypeScript kurulumu yapıldı.
 // 2-) npm init --y kullanılarak package.json oluşturuldu.
 // 3-) tsconfig.json dosyası oluşturuldu ve compilerOptions tanımlandı.
@@ -15,4 +15,11 @@
 //     "rootDir": "src", Kaynağı belirledik
 //     "noUnusedParameters": true, Parametre kullanımını zorunlu tutar
 //     "noUnusedLocals": true Eğerki değer yazılır ve kullanılmazsa hata almamızı sağlar
-// } özellikleri girildi 
+// } özellikleri girildi
+
+// Basic Types & Type Identification 03.09.2023
+// 1-) TS değikenleri tanımlarken tip verilmesine ihtiyaç duymaz otomatik olarak tanımlar
+// 2-) === ile tip eşit mi
+// 3-) Bir objenin tiplerini eşitledim
+// 4-) Generic bir dizi oluşturdum
+// 5-) Tuples yaptım
