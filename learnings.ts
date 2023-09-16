@@ -23,3 +23,7 @@
 // 3-) Bir objenin tiplerini eşitledim
 // 4-) Generic bir dizi oluşturdum
 // 5-) Tuples yaptım
+
+// Type Aliasing 17.09.2023
+// 1-) Tip birleşimi yaptım
+// 2-) Obje birleşimi yaptım

@@ -1,3 +1,5 @@
+import { type } from "os";
+
 let myName: string | number = "asasdasd";
 
 function change() {
@@ -36,3 +38,31 @@ const dizi: (number | boolean | string)[] = [];
 const dizi1 = [] as Array<string>;
 // tuples
 const myDizi: [string, string, number] = ["Ali", "Ahmet", 20];
+
+type Colors = 'red' | 'green' | 'blue';
+
+type CustomColors = 'magenta' | 'cyan' | 'turqoise';
+
+type AllColors = Colors | CustomColors;
+
+const myColor: Colors = 'blue'
+
+// Tip birleşimi
+const colorArray: AllColors[] = ['blue', 'green', 'red', 'red', 'magenta']
+
+// Obje birleşimi
+type Person = {
+    isim: string;
+    soyisim: string;
+    yas: number;
+}
+
+type Dog = {
+    yas: number;
+    cins: string;
+    tur: string;
+}
+
+type DogPerson = Dog & Person
+
+
